@@ -1,0 +1,1 @@
+const { REACT_APP_BASE_URL = 'https://fitnesstrac-kr.herokuapp.com/' } = process.env;

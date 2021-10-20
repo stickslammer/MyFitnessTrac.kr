@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
-const App = () => {
-    return <div>
-        Hello World
-    </div>
-}
+import { App } from './components';
 
 ReactDOM.render(
-    <App />,
-    document.getElementById('app'),
+    <Router>
+        <App />
+    </Router>,
+    document.querySelector('#app')
 );
